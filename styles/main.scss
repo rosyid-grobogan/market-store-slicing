@@ -1,0 +1,10 @@
+// import bootstrap
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+// calling _global etc
+@import "global";
+@import "fonts";
+@import "navbar";
+
+@import "pages/home";
+@import "components/categories";
+@import "components/products";
