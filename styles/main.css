@@ -10839,4 +10839,43 @@ footer p {
 .form-control {
   background-color: #f3f3f3;
 }
+
+.navbar-store {
+  padding-top: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .navbar-store {
+    background-color: #fff !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-store .nav-item .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.navbar-store .profile-picture {
+  max-height: 45px;
+}
+
+.navbar-store .card-badge {
+  display: inline-block;
+  min-width: 2em;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+  background: #29a867;
+  color: #fefefe;
+  margin-left: -10px;
+}
+
+.navbar-store .navbar-fixed-top.scrolled {
+  background-color: #fff;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
 /*# sourceMappingURL=main.css.map */
