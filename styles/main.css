@@ -10878,4 +10878,17 @@ footer p {
   -webkit-transition: background-color 200ms linear;
   transition: background-color 200ms linear;
 }
+
+.pages-home h5 {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.pages-home .store-trend-categories {
+  margin-top: 30px;
+}
+
+.pages-home .store-new-product {
+  margin-top: 10px;
+}
 /*# sourceMappingURL=main.css.map */
