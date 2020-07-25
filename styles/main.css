@@ -10879,16 +10879,43 @@ footer p {
   transition: background-color 200ms linear;
 }
 
-.pages-home h5 {
+.page-home h5 {
   font-weight: 300;
   margin-bottom: 15px;
 }
 
-.pages-home .store-trend-categories {
+.page-home .store-trend-categories {
   margin-top: 30px;
 }
 
-.pages-home .store-new-product {
+.page-home .store-new-product {
   margin-top: 10px;
+}
+
+.component-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.component-categories:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  text-decoration: none;
+}
+
+.component-categories .categories-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  color: #0c0d36;
+  margin-top: 12px;
 }
 /*# sourceMappingURL=main.css.map */
