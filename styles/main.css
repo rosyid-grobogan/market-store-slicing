@@ -10909,6 +10909,40 @@ footer p {
   border: 2px solid #ff7158;
 }
 
+.page-details .store-heading {
+  margin-bottom: 10px;
+}
+
+.page-details .store-heading h1 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0c0d36;
+}
+
+.page-details .store-heading .owner {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #979797;
+  margin-bottom: 8px;
+}
+
+.page-details .store-heading .price {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ff7158;
+  margin-bottom: 10px;
+}
+
+.page-details .store-description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #525252;
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
