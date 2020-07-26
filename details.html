@@ -128,6 +128,41 @@
     <script>
       AOS.init();
     </script>
+    <script src="/vendor/vue/vue.js"></script>
     <script src="/scripts/navbar-scroll.js"></script>
+    <script>
+      var gallery = new Vue({
+        el: "#gallery",
+        data: {
+          activePhoto: 1,
+          photos: [
+            {
+              id: 1,
+              url: "/images/details/1.jpg",
+            },
+            {
+              id: 2,
+              url: "/images/details/2.jpg",
+            },
+            {
+              id: 3,
+              url: "/images/details/3.jpg",
+            },
+            {
+              id: 3,
+              url: "/images/details/4.jpg",
+            },
+          ],
+        },
+        mouted() {
+          AOS.init();
+        },
+        methods: {
+          changeActive(id) {
+            this.activePhoto = id;
+          },
+        },
+      });
+    </script>
   </body>
 </html>
