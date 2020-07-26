@@ -10967,4 +10967,25 @@ footer p {
   line-height: 24px;
   color: #ff7158;
 }
+
+.store-breadcrumbs .breadcrumb {
+  background: transparent;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.store-breadcrumbs .breadcrumb-item + .breadcrumb::before {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.store-breadcrumbs .breadcrumb-item .active {
+  font-weight: 300;
+  color: #0c0d36;
+}
+
+.store-breadcrumbs a {
+  color: #979797;
+}
 /*# sourceMappingURL=main.css.map */
