@@ -10892,6 +10892,13 @@ footer p {
   margin-top: 10px;
 }
 
+.page-details h5 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0c0d36;
+}
+
 .page-details .store-gallery {
   margin-top: 20px;
 }
@@ -10941,6 +10948,25 @@ footer p {
   font-size: 16px;
   line-height: 180%;
   color: #525252;
+}
+
+.page-details .store-review .media img {
+  max-width: 56px;
+}
+
+.page-details .store-review .media-body {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 180%;
+  color: #525252;
+  margin-bottom: 20px;
+}
+
+.page-details .store-review h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  color: #0c0d36;
 }
 
 .component-categories {
