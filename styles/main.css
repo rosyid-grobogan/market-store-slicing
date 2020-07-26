@@ -10956,7 +10956,6 @@ footer p {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
   color: #0c0d36;
   margin-top: 12px;
 }
@@ -10966,7 +10965,6 @@ footer p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* identical to box height */
   color: #ff7158;
 }
 /*# sourceMappingURL=main.css.map */
