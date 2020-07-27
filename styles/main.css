@@ -10969,6 +10969,83 @@ footer p {
   color: #0c0d36;
 }
 
+.store-cart h2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0c0d36;
+  margin-top: 18px;
+}
+
+.store-cart .product-title {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0c0d36;
+}
+
+.store-cart .product-subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #979797;
+}
+
+.store-cart .table-cart {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.store-cart .table-cart th {
+  font-weight: 200;
+}
+
+.store-cart .table-cart .cart-image {
+  border-radius: 8px;
+  max-height: 85px;
+}
+
+.store-cart .table-cart .btn-remove-cart {
+  margin-top: 18px;
+  color: #fff;
+  background-color: #fc5e84;
+  border-color: transparent;
+  border-radius: 6px;
+}
+
+.store-cart .table-cart .btn-remove-cart:hover {
+  color: #fff;
+  background-color: #fb3867;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.store-cart .table-cart .btn-remove-cart:focus, .store-cart .table-cart .btn-remove-cart.focus {
+  color: #fff;
+  background-color: #fb3867;
+  border-color: rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
+.store-cart .table-cart .btn-remove-cart.disabled, .store-cart .table-cart .btn-remove-cart:disabled {
+  color: #fff;
+  background-color: #fc5e84;
+  border-color: transparent;
+}
+
+.store-cart .table-cart .btn-remove-cart:not(:disabled):not(.disabled):active, .store-cart .table-cart .btn-remove-cart:not(:disabled):not(.disabled).active,
+.show > .store-cart .table-cart .btn-remove-cart.dropdown-toggle {
+  color: #fff;
+  background-color: #fb2c5e;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.store-cart .table-cart .btn-remove-cart:not(:disabled):not(.disabled):active:focus, .store-cart .table-cart .btn-remove-cart:not(:disabled):not(.disabled).active:focus,
+.show > .store-cart .table-cart .btn-remove-cart.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
