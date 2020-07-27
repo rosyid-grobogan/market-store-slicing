@@ -199,7 +199,7 @@
               <h2 class="mb-4">Shipping Detail</h2>
             </div>
           </div>
-          <div class="row mb-2" data-aos="fade-up" data-aos-delay="200">
+          <div class="row mb-1" data-aos="fade-up" data-aos-delay="200">
             <div class="col-md-6">
               <div class="form-group">
                 <label for="addressOne">Address 1</label>
@@ -278,8 +278,33 @@
             <div class="col-12">
               <hr />
             </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-delay="250">
             <div class="col-12">
               <h2 class="mb-4">Payment Informations</h2>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title">Rp10rb</div>
+              <div class="product-subtitle">Country Tax</div>
+            </div>
+            <div class="col-4 col-md-3">
+              <div class="product-title">Rp50rb</div>
+              <div class="product-subtitle">Product Insurance</div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title">Rp50rb</div>
+              <div class="product-subtitle">Ship to Jakarta</div>
+            </div>
+            <div class="col-4 col-md-2">
+              <div class="product-title text-success">Rp10jt</div>
+              <div class="product-subtitle">Total</div>
+            </div>
+            <div class="col-8 col-md-3">
+              <a
+                href="/success.html"
+                class="btn btn-success mt-2 px-4 btn-block"
+                >Checkout Now</a
+              >
             </div>
           </div>
         </div>
@@ -305,39 +330,5 @@
     </script>
     <script src="/vendor/vue/vue.js"></script>
     <script src="/scripts/navbar-scroll.js"></script>
-    <script>
-      var gallery = new Vue({
-        el: "#gallery",
-        data: {
-          activePhoto: 0,
-          photos: [
-            {
-              id: 1,
-              url: "/images/details/product-details-1.jpg",
-            },
-            {
-              id: 2,
-              url: "/images/details/product-details-2.jpg",
-            },
-            {
-              id: 3,
-              url: "/images/details/product-details-3.jpg",
-            },
-            {
-              id: 4,
-              url: "/images/details/product-details-4.jpg",
-            },
-          ],
-        },
-        mouted() {
-          AOS.init();
-        },
-        methods: {
-          changeActive(id) {
-            this.activePhoto = id;
-          },
-        },
-      });
-    </script>
   </body>
 </html>
