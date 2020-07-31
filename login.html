@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Market Store</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="vendor/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="vendor/aos/aos.css" />
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top navbar-fixed-top"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a href="/index.html" class="navar-brand">
+          <img src="/images/logo.svg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="/index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/categories.html" class="nav-link">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a href="/rewards.html" class="nav-link">Rewards</a>
+            </li>
+            <li class="nav-item">
+              <a href="/register.html" class="nav-link">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="/login.html"
+                class="btn btn-success nav-link px-4 text-white nav-link"
+                >Sign In</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content page-auth">
+      <div class="section-store-auth" data-aos="fade-up">
+        <div class="container">
+          <div class="row align-items-center row-login">
+            <div class="col-lg-6 text-te">
+              <img
+                src="/images/signin-holder.jpg"
+                alt=""
+                class="w-50 mb-4 mb-lg-none"
+              />
+            </div>
+            <div class="col-lg-5">
+              <h2>Belanja kebutuhan utama, menjadi lebih mudah</h2>
+              <form action="">
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input
+                    type="text"
+                    name="password"
+                    id="password"
+                    class="form-control"
+                  />
+                </div>
+                <a
+                  href="/dashboard.html"
+                  class="btn btn-success btn-block w-75 mt-4"
+                  >Sign In to My Account</a
+                >
+                <a
+                  href="/register.html"
+                  class="btn btn-signup btn-block w-75 mt-4"
+                  >Sign Up</a
+                >
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="pt-4 pb-2">
+              2020 Copyright Store. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="/vendor/jquery/jquery.js"></script>
+    <script src="/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/vendor/aos/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/scripts/navbar-scroll.js"></script>
+  </body>
+</html>
