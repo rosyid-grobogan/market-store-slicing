@@ -9,3 +9,4 @@ Demo: [https://marketstore.netlify.app](https://marketstore.netlify.app/)
 ## Implements
 
 - [AOS - Animate On Scroll Library](http://michalsnik.github.io/aos/)
+- [Vue Toasted](https://www.npmjs.com/package/vue-toasted)
