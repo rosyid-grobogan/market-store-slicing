@@ -73,4 +73,32 @@
       }
     }
   }
+
+  .section-content {
+    margin-top: 100px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    h5 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: #0c0d36;
+    }
+    .dashboard-title {
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 36px;
+      color: #0c0d36;
+    }
+    .dashboard-subtitle {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+      color: #9191a9;
+    }
+  }
 }

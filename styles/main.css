@@ -11190,6 +11190,38 @@ footer p {
   }
 }
 
+.page-dashboard .section-content {
+  margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .page-dashboard .section-content {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+
+.page-dashboard .section-content h5 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0c0d36;
+}
+
+.page-dashboard .section-content .dashboard-title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0c0d36;
+}
+
+.page-dashboard .section-content .dashboard-subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9191a9;
+}
+
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
@@ -11285,6 +11317,29 @@ footer p {
 
 .store-breadcrumbs .breadcrumb a {
   color: #979797;
+}
+
+.card {
+  background: #fefefe;
+  -webkit-box-shadow: 0px 4px 15px #f1f1fb;
+          box-shadow: 0px 4px 15px #f1f1fb;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none !important;
+}
+
+.card .dashboard-card-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #c5c5c5;
+}
+
+.card .dashboard-card-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #0c0d36;
 }
 
 .slide-faded-enter-active {
