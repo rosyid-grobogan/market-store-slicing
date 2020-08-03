@@ -11342,6 +11342,21 @@ footer p {
   color: #0c0d36;
 }
 
+.card-list {
+  margin-bottom: 10px;
+}
+
+.card-list .card-body {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 40px;
+  color: #0c0d36;
+}
+
+.card-list img {
+  max-height: 44px;
+}
+
 .slide-faded-enter-active {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
