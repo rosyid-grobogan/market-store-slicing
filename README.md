@@ -42,3 +42,9 @@ Demo: [https://marketstore.netlify.app](https://marketstore.netlify.app/)
 
 - list-group list-group-flush
 - list-group-item list-group-item-action active
+
+## Versions
+
+### Dashboard - Transactions
+
+- [Navs: The tabs plugin also works with pills](https://getbootstrap.com/docs/4.5/components/navs/)
