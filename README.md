@@ -48,3 +48,5 @@ Demo: [https://marketstore.netlify.app](https://marketstore.netlify.app/)
 ### Dashboard - Transactions
 
 - [Navs: The tabs plugin also works with pills](https://getbootstrap.com/docs/4.5/components/navs/)
+
+- [CKEditor 5](https://cdn.ckeditor.com/)
