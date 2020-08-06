@@ -101,6 +101,26 @@
       color: #9191a9;
     }
 
+    // transaction-detail
+    .product-title {
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5c5c5;
+    }
+
+    .product-subtitle {
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      color: #0c0d36;
+      margin-bottom: 2rem;
+    }
+
+    .product-medium {
+      max-width: 230px;
+    }
+
     //Dashboard: Transactions
     .nav-pills {
       .nav-link {
